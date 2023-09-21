@@ -25,9 +25,9 @@ while count < math.log(upper - lower + 1, 2):
 
 # To receive user input data and it most be an integer
     guess = int(input())
-    if int(input()) == '':
-        print("PLEASE YOU NEED TO INPUT A NUMBER BETWEEN", upper, "&", lower)
-        break
+    # if int(input()) == '':
+    #     print("PLEASE YOU NEED TO INPUT A NUMBER BETWEEN", upper, "&", lower)
+    #     break
 # The section to ensure that the guess number is
 # not less than or greater than then range number
     if guess <= lower:  # if the input is less than the range
